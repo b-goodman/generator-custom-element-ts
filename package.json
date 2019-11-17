@@ -1,0 +1,43 @@
+{
+  "name": "generator-custom-element-ts",
+  "version": "1.2.0",
+  "description": "Start a new custom element using Typescript, extending `HTMLElement`.",
+  "license": "MIT",
+  "author": {
+    "name": "Ben Goodman",
+    "email": "b@thebgoodman.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b-goodman/generator-custom-element-ts"
+  },
+  "main": "generators/index.js",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "generator",
+    "web-component",
+    "typescript",
+    "scss",
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "prettier": "^1.15.2",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "validate-element-name": "^2.1.1",
+    "yeoman-generator": "^4.0.1",
+    "yosay": "^2.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
