@@ -25,5 +25,5 @@ export default class <%= componentNameAsClass %> extends HTMLElement {
 
 }
 
-window.customElements.define(<%= componentName %>, <%= componentNameAsClass %>);
+window.customElements.define("<%= componentName %>", <%= componentNameAsClass %>);
 
