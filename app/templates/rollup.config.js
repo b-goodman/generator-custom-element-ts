@@ -24,6 +24,7 @@ export default [
                 writeDefinitions: true,
                 modules: false,
                 inject: false,
+                minimize: true,
             }),
             nodeResolve(),
             commonjs(),
